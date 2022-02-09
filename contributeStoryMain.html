@@ -38,21 +38,24 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <img src="../images/iPhoneStatusBar.png" alt="iphone status bar">
+                <div class="col-sm-6 text-center">
+                    <img src="../images/iPhoneStatusBar.png" alt="iphone status bar">
+                </div>
             </div>
             <div class="row">
                 <div class="col-sm-1">
-                    <p class="SFproTextDefault"> < Back</p>
+                    <p class="SFproTextDefault"> &lt Back</p>
                 </div>
                 <div class="col-sm-2">
-                    <p class="SFproTextDefault text-center">Title</p>
+                    <p class="SFproTextDefault text-center">Story Contributions</p>
                 </div>
                 <div class="col-sm-1">
-                    <p class="SFproTextDefault"> &nbsp;</p>
+                    <p class="SFproTextDefault"> &nbsp; &nbsp; &nbsp;</p>
                 </div>
             </div>
         </div>
     </header>
+
     <section id="contributeIntro">
         <div class="container-fluid">
             <div class="row">
@@ -68,7 +71,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="row">
-                        <button type="button">Tell a Story</button>
+                        <button type="button" class="tellStoryButton">Tell a Story</button>
                     </div>
                     <div class="row">
                         <button type="button">Write a Story</button>
@@ -84,9 +87,72 @@
                 <div class="col-sm-4">
                     <h2 class="text-left">Recent Contributions</h1>
                 </div>
-                <!-- Add Bootstramp carousel here  -->
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <!-- Add Bootstramp carousel here  -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="imgPlaceholder">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Contributor</h4>
+                                        <p class="card-text">Lorem ipsum dolor sit tilsa amet, consectetur osal de adipiscing elit.</p>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="imgPlaceholder">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Contributor</h4>
+                                        <p class="card-text">Lorem ipsum dolor sit tilsa amet, consectetur osal de adipiscing elit.</p>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="imgPlaceholder">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Contributor</h4>
+                                        <p class="card-text">Lorem ipsum dolor sit tilsa amet, consectetur osal de adipiscing elit.</p>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="imgPlaceholder">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Contributor</h4>
+                                        <p class="card-text">Lorem ipsum dolor sit tilsa amet, consectetur osal de adipiscing elit.</p>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -111,8 +177,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <button type="button">Add</button>
+                <div class="col-sm-4 text-center">
+                    <button type="button" class="addButton">Add</button>
                 </div>
             </div>
     </section>

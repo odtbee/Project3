@@ -8,6 +8,8 @@ h1 {
     letter-spacing: -0.24 px;
     margin-block-end: 0;
     margin-block-start: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 h2 {
@@ -19,6 +21,8 @@ h2 {
     letter-spacing: -0.24 px;
     margin-block-end: 0;
     margin-block-start: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 h3 {
@@ -68,6 +72,12 @@ p {
     margin-block-end: 0;
     margin-block-start: 0;
 }
+
+/* italic class for p italic */
+
+/* SFproTextDefault class would target header titles in iOS font  */
+
+
 
 /* TEXT ALIGN Styles  */
 .text-left {
@@ -128,10 +138,40 @@ header {
 /* HERO */
 
 
+.row {
+    border: 2px solid blue;
+}
 
-/* SECTION 1 */
+/* CATEGORIES GRID SECTION */
+.col-sm-4 {
+    border: 2px solid red;
+}
+
+/* CONTRIBUTE INTRO SECTION */
 section {
+    background-color: #FFFBF8;
     padding-bottom: 4rem;
+}
+
+.tellStoryButton {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.imgPlaceholder {
+    background-color: lightgrey;
+    width: 100%;
+    height: 200px;
+}
+
+
+/* RECENT CONTRIBUTIONS SECTION */
+
+
+/* MY CONTRIBUTIONS SECTION */
+.addButton {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 

@@ -48,6 +48,15 @@ p {
     margin-block-start: 0;
 }
 
+@font-face {
+    font-family: myFirstFontSFProTextP;
+    src: url(sansation_light.woff);
+}
+ 
+ * {
+    font-family: myFirstFontSFProTextP;
+}
+
 .pSmall {
 
     font-size: 0.8rem;

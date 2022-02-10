@@ -162,6 +162,10 @@ button:hover {
 
 
 /* CATEGORIES GRID SECTION */
+.voiceText {
+    padding-top: 2rem;
+    font-style: italic;
+}
 
 
 /* CONTRIBUTE INTRO SECTION */

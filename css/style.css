@@ -142,6 +142,8 @@ button:hover {
     top: 0;
     display: flex;
     flex-direction: row;
+    /* border: 2px solid red;
+    position: fixed; */
 }
 
 .headerRow {
@@ -187,6 +189,16 @@ section {
     background-color: #FFFBF8;
     padding-bottom: 4rem;
     max-width: 480px;
+}
+
+.flexContainerCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonsCenter {
+    border: 2px solid red;
+    text-align: center;
 }
 
 .tellStoryButton {

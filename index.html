@@ -35,21 +35,18 @@
 </head>
 
 <body>
-    <header>
+    <header id="mobile-header">
         <div class="container-fluid">
-            <div class="row">
-                <img src="./images/iPhoneStatusBar.png" alt="iphone status bar">
+            <div class="row justify-content-sm-center">
+                <img src="../images/iPhoneStatusBar.png" alt="iphone status bar">
             </div>
-            <div class="row">
-                <div class="col-sm-1">
-                    <p class="SFproTextDefault"> < Back</p>
+
+            <div class="row headerRow">
+                <div class="col-sm-2 backButton">
+                    <p class="SFproTextDefault"> &lt Back</p>
                 </div>
-                <div class="col-sm-2">
-                    <p class="SFproTextDefault text-center">Title</p>
-                </div>
-                <div class="col-sm-1">
-                    <p class="SFproTextDefault"> &nbsp;</p>
-                </div>
+                <div class="col-sm-8 justify-content-sm-center headerTitle">
+                    <p class="SFproTextDefault text-center">&nbsp;</p>
             </div>
         </div>
     </header>
@@ -59,49 +56,50 @@
     <section></section>
     <section></section>
 
-    
+
     <footer>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-1">
-                    <div class="row">
-                        <i class="fas fa-walking fa-lg text-center"></i>
+            <div class="row footerRow">
+                <div class="col footerCol">
+                    <div class="row justify-content-sm-center">
+                        <i class="fas fa-walking fa-lg tabIconInactive"></i>
                     </div>
-                    <div class="row">
-                        <p class="pSmall">Explore</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="row">
-                        <i class="fas fa-headphones fa-lg text-center"></i>
-                        <i class="fa-solid fa-person-walking"></i>
-                    </div>
-                    <div class="row">
-                        <p class="pSmall">Stories</p>
+                    <div class="row justify-content-sm-center">
+                        <p class="pSmall footerTitle">Explore</p>
                     </div>
                 </div>
-                <div class="col-sm-1">
-                    <div class="row">
-                        <i class="fas fa-plus fa-lg text-center"></i>
+                <div class="col footerCol">
+                    <div class="row justify-content-sm-center">
+                        <i class="fas fa-headphones fa-lg tabIconInactive"></i>
                     </div>
-                    <div class="row">
-                        <p class="pSmall">Contribute</p>
+                    <div class="row justify-content-sm-center">
+                        <p class="pSmall footerTitle">Stories</p>
                     </div>
                 </div>
-                <div class="col-sm-1">
-                    <div class="row">
-                        <i class="fas fa-cog fa-lg text-center"></i>
+                <div class="col footerCol">
+                    <div class="row justify-content-sm-center">
+                        <i class="fas fa-plus fa-lg tabIconInactive"></i>
                     </div>
-                    <div class="row">
-                        <p class="pSmall">Settings</p>
+                    <div class="row justify-content-sm-center">
+                        <p class="pSmall footerTitle">Contribute</p>
+                    </div>
+                </div>
+                <div class="col footerCol">
+                    <div class="row justify-content-sm-center">
+                        <i class="fas fa-cog fa-lg tabIconInactive"></i>
+                    </div>
+                    <div class="row justify-content-sm-center">
+                        <p class="pSmall footerTitle">Settings</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <img src="./images/homeIndicator.png" alt="iPhone home indicator">
+            <div class="row justify-content-sm-center">
+                <img src="../images/homeIndicator.png" alt="iPhone home indicator">
             </div>
         </div>
     </footer>
+
+
 
     <!-- Bootstrap JavaScript  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

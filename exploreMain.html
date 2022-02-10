@@ -43,14 +43,12 @@
 
             <div class="row headerRow">
                 <div class="col-sm-2 backButton">
-                    <p class="SFproTextDefault"> &lt Back</p>
+                    <button class="backButtonStyle" onclick="history.back()">&lt Back</button>
+                    <!-- <p class="SFproTextDefault"> &lt Back</p>  -->
                 </div>
                 <div class="col-sm-8 justify-content-sm-center headerTitle">
                     <p class="SFproTextDefault text-center">Explore</p>
                 </div>
-                <!-- <div class="col-sm-1 text-right">
-                    <p class="SFproTextDefault headerWhitespace"> &nbsp; &nbsp; &nbsp;</p>
-                </div> -->
             </div>
         </div>
     </header>
@@ -78,32 +76,33 @@
 
 
 
+    
     <footer>
         <div class="container-fluid">
             <div class="row footerRow">
                 <div class="col footerCol">
-                    <div class="row justify-content-sm-center">
+                    <a href="./exploreMain.html"><div class="row justify-content-sm-center">
                         <i class="fas fa-walking fa-lg tabIconActive"></i>
                     </div>
                     <div class="row justify-content-sm-center">
                         <p class="pSmall footerTitle">Explore</p>
-                    </div>
+                    </div></a>
                 </div>
                 <div class="col footerCol">
-                    <div class="row justify-content-sm-center">
+                    <a href="./storiesCategories.html"><div class="row justify-content-sm-center">
                         <i class="fas fa-headphones fa-lg tabIconInactive"></i>
                     </div>
                     <div class="row justify-content-sm-center">
                         <p class="pSmall footerTitle">Stories</p>
-                    </div>
+                    </div></a>
                 </div>
                 <div class="col footerCol">
-                    <div class="row justify-content-sm-center">
+                    <a href="./contributeStoryMain.html"><div class="row justify-content-sm-center">
                         <i class="fas fa-plus fa-lg tabIconInactive"></i>
                     </div>
                     <div class="row justify-content-sm-center">
                         <p class="pSmall footerTitle">Contribute</p>
-                    </div>
+                    </div></a>
                 </div>
                 <div class="col footerCol">
                     <div class="row justify-content-sm-center">
@@ -119,6 +118,8 @@
             </div>
         </div>
     </footer>
+
+
 
     <!-- Bootstrap JavaScript  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

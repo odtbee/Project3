@@ -48,6 +48,7 @@ h4 {
 
 p {
     color: #264653;
+    font-family: -apple-system, BlinkMacSystemFont, SF-Pro-Text-Regular, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
@@ -55,17 +56,18 @@ p {
     margin-block-start: 0;
 }
 
-@font-face {
+/* @font-face {
     font-family: myFirstFontSFProTextP;
     src: url(sansation_light.woff);
 }
 
 * {
     font-family: myFirstFontSFProTextP;
-}
+} */
 
 .pSmall {
     color: #264653;
+    font-family: -apple-system, BlinkMacSystemFont, SF-Pro-Text-RegularItalic, sans-serif;
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 16px;
@@ -73,11 +75,11 @@ p {
     margin-block-start: 0;
 }
 
-/* italic class for p italic */
-
-/* SFproTextDefault class would target header titles in iOS font  */
-
-
+/* ITALICS for p voice dication text */
+.voiceText {
+    padding-top: 2rem;
+    font-style: italic;
+}
 
 /* TEXT ALIGN Styles  */
 .text-left {
@@ -97,12 +99,13 @@ button {
     border: 3px solid #264653;
     border-radius: 4px;
     color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, SF-Pro-Text-Regular, sans-serif;
     box-sizing: border-box;
     background-color: #264653;
     font-style: 'Lato', sans-serif;
     font-weight: 600;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
     text-align: center;
     padding: 0.5rem 2rem;
     margin-right: 1rem;
@@ -111,14 +114,15 @@ button {
 button:hover {
     background-color: #315F76;
     color: #F1F0F4;
+    font-family: -apple-system, BlinkMacSystemFont, SF-Pro-Text-Regular, sans-serif;
     border: 3px solid #315F76;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     font-style: 'Lato', sans-serif;
     font-weight: 600;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
     text-align: center;
     padding: 0.5rem 2rem;
     margin-right: 1rem;
@@ -153,20 +157,30 @@ button:hover {
     width: 50%;
 }
 
-/* .headerWhitespace {
-    width: 25%;
-} */
-
 
 /* HERO */
 
 
 /* CATEGORIES GRID SECTION */
-.voiceText {
-    padding-top: 2rem;
-    font-style: italic;
+#categoriesGrid h1 {
+    padding-bottom: 1rem;
 }
 
+.categoryQuestion {
+    padding-bottom: 1rem;
+}
+
+.gridRow {
+    padding-top: 3rem;
+}
+
+.gridIcon {
+    transform: scale(3);
+}
+
+.gridLabel {
+    padding-top: 1rem;
+}
 
 /* CONTRIBUTE INTRO SECTION */
 section {
@@ -202,6 +216,7 @@ section {
     border: none;
     background-color: transparent;
 }
+
 
 /* MY CONTRIBUTIONS SECTION */
 .addButton {

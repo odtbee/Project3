@@ -231,6 +231,23 @@ section {
     background-color: transparent;
 }
 
+.cardBorder {
+    border-radius: 6px;
+}
+
+.locationImg {
+    max-height: 168px;
+}
+
+/* Need to decide if wanting to change colors
+.indicatorColor {
+    color: #217A70;
+} 
+
+#recentContributions li {
+    color: #217A70;
+} */
+
 
 /* MY CONTRIBUTIONS SECTION */
 .addButton {

@@ -130,31 +130,54 @@ button:hover {
 
 
 /* HEADER */
-header {
+#mobile-header {
     background-color: #E9C46A;
+    max-width: 480px;
+    height: 92px;
+    z-index: 7;
+    top: 0;
+    display: flex;
+    flex-direction: row;
 }
+
+.headerRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.backButton {
+    width: 25%;
+}
+
+.headerTitle {
+    width: 50%;
+}
+
+/* .headerWhitespace {
+    width: 25%;
+} */
 
 
 /* HERO */
 
 
-.row {
-    border: 2px solid blue;
-}
-
 /* CATEGORIES GRID SECTION */
-.col-sm-4 {
-    border: 2px solid red;
-}
+
 
 /* CONTRIBUTE INTRO SECTION */
 section {
     background-color: #FFFBF8;
     padding-bottom: 4rem;
+    max-width: 480px;
 }
 
 .tellStoryButton {
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.writeStoryButton {
+    margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
 
@@ -178,12 +201,24 @@ section {
 /* FOOTER */
 footer {
     background-color: #E9C46A;
+    max-width: 480px;
 }
 
 .tabIconInactive {
     color: #264653;
+
 }
 
 .tabIconActive {
     color: #217A70;
 }
+
+.footerRow {
+   display: flex;
+   flex-direction: row;
+}
+
+.footerCol {
+    width: 25%;
+}
+

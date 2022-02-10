@@ -189,7 +189,15 @@ section {
 
 
 /* RECENT CONTRIBUTIONS SECTION */
+.carousel-control-prev, .carousel-control-next {
+    border: none; 
+    background-color: transparent;
+}
 
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    border: none;
+    background-color: transparent;
+}
 
 /* MY CONTRIBUTIONS SECTION */
 .addButton {

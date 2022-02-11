@@ -216,12 +216,11 @@ button:hover {
 .gridIcon:hover {
     color: #B54B36;
     animation: wiggle 0.7s 1; 
-    transform: scale(3); 
+    transform: scale(3);
 }
 
 @keyframes wiggle {
     from {
-    /* transform: rotate(0deg);  */
         transform: scale(3);
     }
     50% {

@@ -209,8 +209,14 @@ button:hover {
     transform: scale(3); 
 }
 
+.iconCenter {
+    justify-content: center;
+}
+
 .gridLabel {
     padding-top: 1rem;
+    width: 100%;
+    text-align: center;
 }
 
 .gridIcon:hover {
@@ -286,6 +292,10 @@ section {
     background-color: transparent;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 .cardBorder {
     border-radius: 6px;
 }
@@ -342,4 +352,10 @@ footer {
 
 .footerTitle {
     padding-top: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.footerCenter {
+    justify-content: center;
 }

@@ -159,8 +159,11 @@ button:hover {
 }
 
 
-/* BACK TO TOP BUTTON */
-
+/* ALL SECTION STYLES */
+section {
+    background-color: #FFFBF8;
+    padding-bottom: 4rem;
+}
 
 
 /* HEADER */
@@ -196,7 +199,7 @@ button:hover {
 /* EXPLORE */
 .vh {
     position: fixed;
-    top: 15vh;
+    top: 10vh;
     width: 100%;
 }
 
@@ -207,6 +210,23 @@ button:hover {
 
 
 /* CATEGORIES GRID SECTION */
+.storyHeader {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+/* .vhGrid {
+    position: fixed; 
+    top: 30vh;
+    width: 100%;
+} */
+
+/* .categoriesGrid {
+    width: 100%;
+    margin-top: 8rem;
+} */
+
 #categoriesGrid h1 {
     padding-bottom: 1rem;
 }
@@ -219,9 +239,9 @@ button:hover {
     padding-top: 3rem;
 }
 
-.gridIcon {
+/* .gridIcon {
    font-size: 50px;
-}
+} */
 
 .iconCenter {
     justify-content: center;
@@ -240,29 +260,35 @@ button:hover {
 
 @keyframes wiggle {
     from {
-        transform: rotate(0);
-    }
-    50% {
         transform: rotate(0deg);
     }
-    75% {
-        transform: rotate(60deg);
+    50% {
+        transform: rotate(40deg);
     }
-    85% {
-        transform: rotate(-60deg);
+    75% {
+        transform: rotate(-40deg);
     }
     to {
-    transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+}
+
+#setPreferences button {
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+#setPreferences {
+    margin-bottom: 6rem;
 }
 
 
 /* CONTRIBUTE INTRO SECTION */
-section {
-    background-color: #FFFBF8;
-    padding-bottom: 4rem;
-    max-width: 480px;
+.allContentSections {
+    top: 30vh;
+    width: 100%;
 }
+
 
 .flexContainerCol {
     display: flex;
@@ -274,7 +300,7 @@ section {
 }
 
 .tellStoryButton {
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 0.5rem;
     margin-left: auto;
     margin-right: auto;
@@ -316,15 +342,16 @@ section {
 } */
 
 .locationImg {
-    max-height: 168px;
+    max-height: 208px;
 }
 
 
 /* MY CONTRIBUTIONS SECTION */
 .addButton {
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 6rem;
 }
+
 
 
 /* FOOTER */
@@ -333,6 +360,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    z-index: 50;
 }
 
 .tabIconInactive {

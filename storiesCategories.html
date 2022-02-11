@@ -36,7 +36,7 @@
 
 <body>
     <header id="mobile-header">
-        <div class="container-fluid">
+        <div class="container-fluid storyHeader">
             <div class="row justify-content-sm-center">
                 <img src="../images/iPhoneStatusBar.png" alt="iphone status bar">
             </div>
@@ -44,7 +44,6 @@
             <div class="row headerRow">
                 <div class="col-sm-2 backButton">
                     <button class="backButtonStyle" onclick="history.back()">&lt Back</button>
-                    <!-- <p class="SFproTextDefault"> &lt Back</p>  -->
                 </div>
                 <div class="col-sm-8 justify-content-sm-center headerTitle">
                     <p class="SFproTextDefault text-center">Story Categories</p>
@@ -52,15 +51,14 @@
         </div>
     </header>
 
-    <section id="categoriesGrid">
+    <section id="categoriesGrid vhGrid">
         <h1 class="text-center">Select a Category</h1>
-        <p class="italic text-center voiceText categoryQuestion">Is this what you are looking for?</p>
         <!-- Grid goes here -->
         <div class="container">
             <div class="row gridRow">
                 <div class="col">
                     <div class="row iconCenter">
-                        <i class="fas fa-paint-brush gridIcon"></i>
+                        <i class="fas fa-paint-brush fa-3x gridIcon"></i>
                     </div>
                     <div class="row">
                         <p class="gridLabel">Art</p>
@@ -68,7 +66,7 @@
                 </div>
                 <div class="col">
                     <div class="row iconCenter">
-                        <i class="fas fa-door-open gridIcon"></i>
+                        <i class="fas fa-door-open fa-3x gridIcon"></i>
                     </div>
                     <div class="row">
                         <p class="gridLabel">Businesses</p>
@@ -78,10 +76,7 @@
             <div class="row gridRow">
                 <div class="col">
                     <div class="row iconCenter">
-                        <!-- <i class="fas fa-faucet fa-2xl gridIcon"></i>  -->
-                        <i class="fas fa-seedling gridIcon"></i> 
-                        <!-- <i class="fas fa-flower-tulip fa-2xl gridIcon"></i>  -->
-                        <!-- <i class="fas fa-flower-daffodil fa-2xl gridIcon"></i>  -->
+                        <i class="fas fa-seedling fa-3x gridIcon"></i> 
                     </div>
                     <div class="row">
                         <p class="gridLabel"> Gardens</p>
@@ -89,7 +84,7 @@
                 </div>
                 <div class="col">
                     <div class="row iconCenter">
-                        <i class="fas fa-monument gridIcon"></i>
+                        <i class="fas fa-monument fa-3x gridIcon"></i>
                     </div>
                     <div class="row">
                         <p class="gridLabel">History</p>
@@ -100,7 +95,7 @@
             <div class="row gridRow">
                 <div class="col">
                     <div class="row iconCenter">
-                        <i class="fas fa-home gridIcon"></i>
+                        <i class="fas fa-home fa-3x gridIcon"></i>
                     </div>
                     <div class="row">
                         <p class="gridLabel">Home Details</p>
@@ -108,7 +103,7 @@
                 </div>
                 <div class="col">
                     <div class="row iconCenter">
-                        <i class="fab fa-pagelines gridIcon"></i>
+                        <i class="fab fa-pagelines fa-3x gridIcon"></i>
                     </div>
                     <div class="row">
                         <p class="gridLabel">Nature</p>
@@ -120,9 +115,10 @@
 
 
     <section id="setPreferences">
+        <p class="italic text-center voiceText categoryQuestion">Is this what you are looking for?</p>
         <div class="row justify-content-sm-center">
             <div class="col-sm-6 text-center">
-                <img src="./images/IconMicFill.png" alt="microphone icon">
+                <i class="fas fa-microphone fa-5x"></i>
             </div>
         </div>
         <div class="row justify-content-sm-center">

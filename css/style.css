@@ -213,6 +213,28 @@ button:hover {
     padding-top: 1rem;
 }
 
+.gridIcon:hover {
+    color: #B54B36;
+    animation: wiggle 0.7s 1;
+    transition-timing-function: ease-in-out;
+}
+
+@keyframes wiggle {
+    from {
+    transform: rotate(0deg);
+    }
+    50% {
+    transform: rotate(10deg);
+    }
+    75% {
+    transform: rotate(-5deg);
+    }
+    to {
+    transform: rotate(0deg);
+    }
+}
+
+
 /* CONTRIBUTE INTRO SECTION */
 section {
     background-color: #FFFBF8;
@@ -232,11 +254,15 @@ section {
 .tellStoryButton {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .writeStoryButton {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .imgPlaceholder {

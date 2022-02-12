@@ -216,11 +216,9 @@ section {
     width: 100%;
 }
 
-/* .vhGrid {
-    position: fixed; 
-    top: 30vh;
-    width: 100%;
-} */
+#categoriesGrid {
+   margin-top: 92px;
+}
 
 /* .categoriesGrid {
     width: 100%;
@@ -285,8 +283,8 @@ section {
 
 /* CONTRIBUTE INTRO SECTION */
 .allContentSections {
-    top: 30vh;
     width: 100%;
+    margin-top: 92px;
 }
 
 

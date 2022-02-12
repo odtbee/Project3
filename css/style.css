@@ -1,0 +1,391 @@
+/* TYPOGRAPHY  */
+h1 {
+    color: #217A70;
+    font-family: 'Amita', cursive;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.24 px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    color: #B54B36;
+    font-family: 'Amita', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.24 px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    color: #B54B36;
+    font-family: 'Amita', cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.24 px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+h4 {
+    color: #217A70;
+    font-family: cyrene;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.24 px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+p {
+    color: #264653;
+    font-family: -apple-system, BlinkMacSystemFont, SF-Pro-Text-Regular, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+@font-face {
+    font-family: 'cyrene';
+    src: url(fonts/CyreneRegular.otf);
+    color: #217A70;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.24 px;
+}
+
+.pSmall {
+    color: #264653;
+    font-family: -apple-system, BlinkMacSystemFont, SF-Pro-Text-RegularItalic, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 16px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+/* ITALICS for p voice dication text */
+.voiceText {
+    padding-top: 2rem;
+    font-style: italic;
+    color: #264653;
+}
+
+/* TEXT ALIGN Styles  */
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+
+
+/* BUTTON STYLES */
+button {
+    border: 3px solid #264653;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, SF-Pro-Text-Regular, sans-serif;
+    box-sizing: border-box;
+    background-color: #264653;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+}
+
+button:hover {
+    background-color: #315F76;
+    color: #F1F0F4;
+    font-family: -apple-system, BlinkMacSystemFont, SF-Pro-Text-Regular, sans-serif;
+    border: 3px solid #315F76;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+}
+
+.backButtonStyle {
+    display: inline;
+    color: #315F76;
+    font-family: -apple-system, BlinkMacSystemFont, SF-Pro-Text-Regular, sans-serif;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    width: 6rem;
+}
+
+.backButtonStyle:hover {
+    display: inline;
+    color: #315F76;
+    font-family: -apple-system, BlinkMacSystemFont, SF-Pro-Text-Regular, sans-serif;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    width: 6rem;
+}
+
+
+/* ALL SECTION STYLES */
+section {
+    background-color: #FFFBF8;
+    padding-bottom: 4rem;
+}
+
+
+/* HEADER */
+#mobile-header {
+    background-color: #E9C46A;
+    height: 92px;
+    z-index: 7;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+}
+
+.headerRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.backButton {
+    width: 25%;
+}
+
+.headerTitle {
+    width: 50%;
+}
+
+
+/* HOME HERO */
+
+
+
+/* EXPLORE */
+.vh {
+    position: fixed;
+    top: 10vh;
+    width: 100%;
+}
+
+.micRow {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+/* CATEGORIES GRID SECTION */
+.storyHeader {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+#categoriesGrid {
+   margin-top: 92px;
+}
+
+/* .categoriesGrid {
+    width: 100%;
+    margin-top: 8rem;
+} */
+
+#categoriesGrid h1 {
+    padding-bottom: 1rem;
+}
+
+.categoryQuestion {
+    padding-bottom: 1rem;
+}
+
+.gridRow {
+    padding-top: 3rem;
+}
+
+/* .gridIcon {
+   font-size: 50px;
+} */
+
+.iconCenter {
+    justify-content: center;
+}
+
+.gridLabel {
+    padding-top: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.gridIcon:hover {
+    color: #B54B36;
+    animation: wiggle 0.7s 1; 
+}
+
+@keyframes wiggle {
+    from {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(40deg);
+    }
+    75% {
+        transform: rotate(-40deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+#setPreferences button {
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+#setPreferences {
+    margin-bottom: 6rem;
+}
+
+
+/* CONTRIBUTE INTRO SECTION */
+.allContentSections {
+    width: 100%;
+    margin-top: 92px;
+}
+
+
+.flexContainerCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonsCenter {
+    text-align: center;
+}
+
+.tellStoryButton {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.writeStoryButton {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* RECENT CONTRIBUTIONS SECTION */
+.carousel-control-prev, .carousel-control-next {
+    border: none; 
+    background-color: transparent;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    border: none;
+    background-color: transparent;
+}
+
+.card-text {
+   padding-bottom: 1rem; 
+}
+
+.carousel-indicators li {
+    background-color: #000000;
+}
+
+.cardBorder {
+    border-radius: 6px;
+}
+
+/* .cardShadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.locationImg {
+    max-height: 208px;
+}
+
+
+/* MY CONTRIBUTIONS SECTION */
+.addButton {
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: #E9C46A;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 50;
+}
+
+.tabIconInactive {
+    color: #264653;
+
+}
+
+.tabIconActive {
+    color: #217A70;
+}
+
+.footerRow {
+   display: flex;
+   flex-direction: row;
+}
+
+.footerCol {
+    width: 25%;
+    padding-top: 1rem;
+}
+
+.footerTitle {
+    padding-top: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.footerCenter {
+    justify-content: center;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Hotjar Tracking Code -->
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/f1cde76b8a.js" crossorigin="anonymous"></script>
+
+
+    <title>B.Side Walk Mobile App Prototype</title>
+    <!-- Meta code  -->
+    <meta name="description" content="B.Side Walk Mobile App Prototype" />
+    <meta name="keywords" content="UX Design, UX/UI, user experience, mobile app prototype" />
+    <meta http-equiv="author" content="Olivia Denton, Samuel Robbins, Jill Van" />
+    <meta http-equiv="content-language" content="en-us" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap responsive meta tag  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Linking files  -->
+    <!-- Bootstrap CSS file  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+    <!-- Our CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Codes to embed Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Add Google fonts link here  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Need to add Cyrene and SF Pro text fonts -->
+
+</head>
+
+<body>
+    <header id="mobile-header">
+        <div class="container-fluid">
+            <div class="row justify-content-sm-center">
+                <img src="../images/iPhoneStatusBar.png" alt="iphone status bar">
+            </div>
+
+            <div class="row headerRow">
+                <div class="col-sm-2 backButton">
+                    <button class="backButtonStyle" onclick="history.back()">&lt Back</button>
+                    <!-- <p class="SFproTextDefault"> &lt Back</p> -->
+                </div>
+                <div class="col-sm-8 justify-content-sm-center headerTitle">
+                    <p class="SFproTextDefault text-center">Story Contributions</p>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="allContentSections">
+    <section id="contributeIntro">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="text-center">Have a Story to Share?</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>We’d love to hear it. By contributing you help personalize your exploration & shape how others experience your neighborhood.</p>
+                </div>
+            </div>
+            <div class="row flexContainerCol">
+                <div class="col-sm-6">
+                    <div class="row">
+                        <button type="button" class="tellStoryButton buttonsCenter"> <i class="fas fa-volume-up"></i> &nbsp; Tell a Story &nbsp; </button>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="writeStoryButton buttonsCenter"><i class="fas fa-pencil-alt"></i> &nbsp; Write a Story</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recentContributions">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2 class="text-left">Recent Contributions</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card cardBorder cardShadow">
+                                    <div>
+                                    <img src="./images/locationCruzRoom.png" class="card-img-top locationImg" alt="Cruz Room Bar with Pop Art on wall">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Cruz Room</h4>
+                                        <p class="card-text">Bar decorated with Pop Art is a music venue with specialty cocktails, tamales, and events, from knitting to trivia.</p>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card cardBorder cardShadow">
+                                    <div>
+                                    <img src="./images/locationAlbertaCoopGrocery.png" class="card-img-top locationImg" alt="Alberta Co-Op Grocery Store">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Alberta Co-Op Grocery</h4>
+                                        <p class="card-text">Portland’s grocery cooperative with a farmer's market vibe features organic produce & local food items.</p>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card cardBorder cardShadow">
+                                    <div>
+                                    <img src="./images/locationKennedySchool.png" class="card-img-top locationImg" alt="Kennedy School building">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Kennedy School</h4>
+                                        <p class="card-text">Historic elementary school since 1915 renovated into a unique hotel, restaurant, theater, soaking pool, & brewery.</p>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="myContributions">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-left">My Contributions</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h4 class="card-title">None yet.</h4>
+                            <p>Have one to add one?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <button type="button" class="addButton">Add</button>
+                </div>
+            </div>
+    </section>
+    </div>
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row footerRow">
+                <div class="col footerCol">
+                    <a href="./exploreMain.html"><div class="row footerCenter">
+                        <i class="fas fa-walking fa-lg tabIconInactive"></i>
+                    </div>
+                    <div class="row">
+                        <p class="pSmall footerTitle">Explore</p>
+                    </div></a>
+                </div>
+                <div class="col footerCol">
+                    <a href="./storiesCategories.html"><div class="row footerCenter">
+                        <i class="fas fa-headphones fa-lg tabIconInactive"></i>
+                    </div>
+                    <div class="row">
+                        <p class="pSmall footerTitle">Stories</p>
+                    </div></a>
+                </div>
+                <div class="col footerCol">
+                    <a href="./contributeStoryMain.html"><div class="row footerCenter">
+                        <i class="fas fa-plus fa-lg tabIconActive"></i>
+                    </div>
+                    <div class="row footerCenter">
+                        <p class="pSmall footerTitle">Contribute</p>
+                    </div></a>
+                </div>
+                <div class="col footerCol">
+                    <div class="row footerCenter">
+                        <i class="fas fa-cog fa-lg tabIconInactive"></i>
+                    </div>
+                    <div class="row">
+                        <p class="pSmall footerTitle">Settings</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-sm-center">
+                <img src="../images/homeIndicator.png" alt="iPhone home indicator">
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap JavaScript  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- JavaScript link -->
+    <script src="./js/bsw.js"></script>
+</body>
+</html>

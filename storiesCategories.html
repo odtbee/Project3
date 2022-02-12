@@ -36,7 +36,7 @@
 
 <body>
     <header id="mobile-header">
-        <div class="container-fluid">
+        <div class="container-fluid storyHeader">
             <div class="row justify-content-sm-center">
                 <img src="../images/iPhoneStatusBar.png" alt="iphone status bar">
             </div>
@@ -44,18 +44,90 @@
             <div class="row headerRow">
                 <div class="col-sm-2 backButton">
                     <button class="backButtonStyle" onclick="history.back()">&lt Back</button>
-                    <!-- <p class="SFproTextDefault"> &lt Back</p>  -->
                 </div>
                 <div class="col-sm-8 justify-content-sm-center headerTitle">
-                    <p class="SFproTextDefault text-center">&nbsp;</p>
+                    <p class="SFproTextDefault text-center">Story Categories</p>
             </div>
         </div>
     </header>
 
+    <section id="categoriesGrid">
+        <h1 class="text-center">Select a Category</h1>
+        <!-- Grid goes here -->
+        <div class="container">
+            <div class="row gridRow">
+                <div class="col">
+                    <div class="row iconCenter">
+                        <i class="fas fa-paint-brush fa-3x gridIcon"></i>
+                    </div>
+                    <div class="row">
+                        <p class="gridLabel">Art</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row iconCenter">
+                        <i class="fas fa-door-open fa-3x gridIcon"></i>
+                    </div>
+                    <div class="row">
+                        <p class="gridLabel">Businesses</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gridRow">
+                <div class="col">
+                    <div class="row iconCenter">
+                        <i class="fas fa-seedling fa-3x gridIcon"></i> 
+                    </div>
+                    <div class="row">
+                        <p class="gridLabel"> Gardens</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row iconCenter">
+                        <i class="fas fa-monument fa-3x gridIcon"></i>
+                    </div>
+                    <div class="row">
+                        <p class="gridLabel">History</p>
+                    </div>
+                </div>
+            </div>
 
-    <section></section>
-    <section></section>
-    <section></section>
+            <div class="row gridRow">
+                <div class="col">
+                    <div class="row iconCenter">
+                        <i class="fas fa-home fa-3x gridIcon"></i>
+                    </div>
+                    <div class="row">
+                        <p class="gridLabel">Home Details</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row iconCenter">
+                        <i class="fab fa-pagelines fa-3x gridIcon"></i>
+                    </div>
+                    <div class="row">
+                        <p class="gridLabel">Nature</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="setPreferences">
+        <p class="italic text-center voiceText categoryQuestion">Is this what you are looking for?</p>
+        <div class="row justify-content-sm-center">
+            <div class="col-sm-6 text-center">
+                <i class="fas fa-microphone fa-5x"></i>
+            </div>
+        </div>
+        <div class="row justify-content-sm-center">
+            <div class="col-sm-6 text-center">
+                <button type="button">Set Preferences</button>
+            </div>
+        </div>
+    </section>
+
 
 
     <footer>
@@ -71,7 +143,7 @@
                 </div>
                 <div class="col footerCol">
                     <a href="./storiesCategories.html"><div class="row footerCenter">
-                        <i class="fas fa-headphones fa-lg tabIconInactive"></i>
+                        <i class="fas fa-headphones fa-lg tabIconActive"></i>
                     </div>
                     <div class="row">
                         <p class="pSmall footerTitle">Stories</p>
@@ -79,7 +151,7 @@
                 </div>
                 <div class="col footerCol">
                     <a href="./contributeStoryMain.html"><div class="row footerCenter">
-                        <i class="fas fa-plus fa-lg tabIconActive"></i>
+                        <i class="fas fa-plus fa-lg tabIconInactive"></i>
                     </div>
                     <div class="row footerCenter">
                         <p class="pSmall footerTitle">Contribute</p>
